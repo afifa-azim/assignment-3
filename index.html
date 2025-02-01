@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Sora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI CDN -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script> -->
+<!-- fontawesome cdn-->
+<script src="https://kit.fontawesome.com/0ac94b9195.js" crossorigin="anonymous"></script>
+<style>
+    .sora-font {
+  font-family: "Sora", serif;
+  /* font-style: normal; */
+}
+
+</style>
+<!-- <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'btn-color': '#179800',
+          }
+        }
+      }
+    }
+  </script> -->
 </head>
-<body>
-    
+<body class="sora-font">
+    <!-- header section -->
+     <header class="bg-gradient-to-r from-[#FFFFFF] to-[#EFEBE3] pl-4">
+        
+    <nav></nav>
+           
+        <!-- banner -->
+         <div class="flex flex-col justify-center items-center">
+            <div>
+                <h1 class="text-5xl">Freshness <span class="text-[#179800]">You Can <br>
+                    Count</span> On, Prices You'll Love!</h1>
+                    <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            </div>
+            <div>
+                <img src="c2-assets/hero-vegetables.png" alt="">
+            </div>
+         </div>
+     </header>
+      <main>
+        <!-- Service section -->
+         <section class="p-4">
+            <h3 class="text-2xl text-[#179800] font-bold">Services</h3>
+            <!-- Card container -->
+             <div class="pt-4">
+                <!-- card-pic -->
+                 <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 text-center">
+                    <div class="rounded-lg bg-[#EFEBE3] pt-4 overflow-hidden">
+                        <img class="mx-auto pt-4 bg-white rounded-full p-1" src="c2-assets/service.png" alt="">
+                    <div class="p-2">
+                        <h4 class="text-lg font-bold">24/7 Services </h4>
+                    <p>The service is 24/7 available.</p>
+                    </div>
+                    </div>
+                    <!-- 2nd -->
+                    <div class="rounded-lg bg-[#EFEBE3] pt-4 overflow-hidden">
+                        <img class="mx-auto pt-4 bg-white rounded-full p-1" src="c2-assets/delivery.png" alt="">
+                    <div class="p-2">
+                        <h4 class="text-lg font-bold">Fast Delivery</h4>
+                    <p>The delivery service is good. the give the product as fast as possible.</p>
+                    </div>
+                    </div>
+                    <!-- 3rd -->
+                    <div class="rounded-lg bg-[#EFEBE3] pt-4 overflow-hidden">
+                        <img class="mx-auto pt-4 bg-white rounded-full p-1" src="c2-assets/healthy.png" alt="">
+                    <div class="p-4">
+                        <h4 class="text-lg font-bold">Healthy Products  </h4>
+                    <p>Organic and healthy products are found here in reasonble price.</p>
+                    </div>
+                    </div>
+                 </div>
+             </div>
+         </section>
+         <!-- Popular products -->
+      </main>
 </body>
 </html>
